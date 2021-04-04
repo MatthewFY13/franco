@@ -10,8 +10,3 @@ var typed = new Typed(".prueba2", {
     backSpeed: 60,
     loop: true
 });
-
-
-$(window).on("load", function(){
-    $('.loader').delay(100).fadeOut()
-});
